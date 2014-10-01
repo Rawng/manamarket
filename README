@@ -1,9 +1,10 @@
 To get your own copy of tradey:
 
 cp config.py.template config.py -- fill out the fields inside appropriately.
+cp data_template/* data/
 cd data git init
 
-Below is a template for the admin user. Replace <NAME> with the name of the admin user. Other users can be added with the !adduser command. Whisper !help !adduser to MM for instructions.
+You will need to add the admin user to user.xml manually. Below is a template. Replace <NAME> with the name of the admin user. Other users can be added with the !adduser command. Whisper !help !adduser to MM for instructions.
 
 <?xml version="1.0" ?>
 <users>
