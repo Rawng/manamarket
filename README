@@ -10,6 +10,6 @@ Below is a template for the admin user. Replace <NAME> with the name of the admi
     <user accesslevel="20" id="2000000" money="0" name="<NAME>" stalls="1" used_stalls="0"/>
 </users>
 
-Start MM with ./start.sh
-
 You will need to create the character for the bot to use in the character clot listed in config.py. If you wish to test the bot you will need to log in with a different account than MM's character is on. Give the char the trading skill from the Trader npc and use '@zeny -45' to remove the remainder of the character's money. The character is now ready to be used by the bot. Move it to a convenient location, log off, and start MM.
+
+Start MM with ./start.sh
