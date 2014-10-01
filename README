@@ -3,3 +3,10 @@ To get your own copy of tradey:
 cp config.py.template config.py
 cp item.xml data/
 cd data git init
+
+Below is a template for the admin user. Replace <NAME> with the name of the admin user. Other users can be added with the !adduser command. Whisper !help !adduser to MM for instructions.
+
+<?xml version="1.0" ?>
+<users>
+    <user accesslevel="20" id="2000000" money="0" name="<NAME>" stalls="1" used_stalls="0"/>
+</users>
